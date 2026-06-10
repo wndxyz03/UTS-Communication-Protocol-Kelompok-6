@@ -1,0 +1,120 @@
+{
+  "info": {
+    "_postman_id": "bdf9bff1-4bf2-4c28-9c45-7b7569ca10a2",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55101580"
+  },
+  "item": [
+    {
+      "name": "POST 1 Users",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"username\": \"azka\",\r\n  \"email\": \"azka@gmail.com\",\r\n  \"role\": \"1\",\r\n  \"status\": \"active\",\r\n  \"department\": \"Kelompok 6\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8088/api/users",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8088",
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET 1 Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8088/api/users",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8088",
+          "path": [
+            "api",
+            "users"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST 2 Profiles",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"userId\": 1,\r\n  \"fullName\": \"Kanaya\",\r\n  \"program\": \"Sains Data\",\r\n  \"semester\": 2,\r\n  \"skills\": [\r\n    \"postman\",\r\n    \"json\",\r\n    \"wireshark\"\r\n  ],\r\n  \"city\": \"Jakarta\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8088/api/profiles",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8088",
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET 2 Profiles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:8088/api/profiles",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8088",
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
