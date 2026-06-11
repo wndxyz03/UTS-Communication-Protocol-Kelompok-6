@@ -15,7 +15,6 @@ dan Backup Presenter)
 ## 📂 Struktur Repository
 Sesuai panduan resmi, berkas dalam repository ini disusun sebagai berikut:
 - `/postman/` : File `collection.json` hasil pengujian API.
-- `/curl/` : Dokumentasi perintah `curl_commands.txt`.
 - `/capture/` : Berkas capture jaringan `traffic_capture.pcapng`.
 - `/screenshots/` : Bukti visual request/response dan analisis paket.
 - `/python/` : Script atau notebook parsing (`parsing_script.py` / `.ipynb`).
